@@ -335,7 +335,7 @@ header .icon:before {
 .landing {
     min-height: 100vh;
     background-color: #1f2021;
-    background-image: url(../images/background-landing.jpg);
+    background-image: url(../Images/background-landing.jpg);
     background-size: cover;
     position: relative;
 }
