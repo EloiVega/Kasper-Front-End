@@ -1676,22 +1676,22 @@ header .icon:before {
     color: gray;
 }
 
-@media (max-width: 768px){
-    .contact-content{
+@media (max-width: 768px) {
+    .contact-content {
         flex-direction: column;
         width: 80%;
     }
 
-    .contact-content form{
+    .contact-content form {
         width: 100%;
     }
 
-    .contact-content button[type=submit]{
+    .contact-content button[type=submit] {
         left: 50%;
         transform: translateX(-50%);
     }
 
-    .contact-content .contact-info{
+    .contact-content .contact-info {
         flex-direction: row;
         justify-content: space-between;
 
@@ -1699,7 +1699,7 @@ header .icon:before {
     }
 
     .contact-content .contact-location,
-    .contact-content .contact-number{
+    .contact-content .contact-number {
         width: 200px;
     }
 }
@@ -1708,62 +1708,62 @@ header .icon:before {
 
 /* start Footer */
 
-    footer .container{
-        margin-top: 50px;
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+footer .container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        color: white;
-    }
+    color: white;
+}
 
-    footer .logo{
-        margin: 20px 0px;
-    }
+footer .logo {
+    margin: 20px 0px;
+}
 
-    footer h2{
-        margin-bottom: 20px;
+footer h2 {
+    margin-bottom: 20px;
 
-        font-weight: 300;
-        letter-spacing: 1px;
+    font-weight: 300;
+    letter-spacing: 1px;
 
-        display:flex;
-        justify-content: center;
+    display: flex;
+    justify-content: center;
 
-        position: relative;
-    }
+    position: relative;
+}
 
-    footer h2::after{
-        content : "";
+footer h2::after {
+    content: "";
 
-        width: 120%;
-        position: absolute;
-        bottom: -10px;
-        left: -20px;
+    width: 120%;
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
 
-        border-bottom: solid 1px white;
-    }
+    border-bottom: solid 1px white;
+}
 
-    footer .icons{
-        width: 35%;
+footer .icons {
+    width: 35%;
 
-        display: flex;
-        justify-content: center;
-    }
+    display: flex;
+    justify-content: center;
+}
 
-    footer i{
-        padding: 15px;
-    }
+footer i {
+    padding: 15px;
+}
 
-    footer .credit{
-        margin-top: 50px;
-        
-        text-align: center;
-    }
+footer .credit {
+    margin-top: 50px;
 
-    footer span{
-        color: var(--main-background-color);
-    }
+    text-align: center;
+}
+
+footer span {
+    color: var(--main-background-color);
+}
 
 /* end Footer */
